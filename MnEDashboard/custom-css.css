@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#main_body {
+	margin-left:300px;
+}
+
+@media only screen and (max-width: 993px) {
+  #main_body {
+		margin-left:0px;
+  }
+}
+
+
+.main {
+  margin-left: 270px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  padding-right:50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+.box1 {
+  width: 100px;
+  height: 50px;
+  background-color: #0066ff;
+  text-align: center;
+  display: inline-block;
+  color:white;
+}
+
+
+.active-box {
+  width: 100px;
+  height: 50px;
+  background-color: #2eb82e;
+  text-align: center;
+  display: inline-block;
+  color:white;
+}
+.inactive-box {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  text-align: center;
+  display: inline-block;
+  color:white;
+}
+
+#details {
+  width: 80%;
+}
+
+@media (max-width:1300px) {
+  #details {
+    width: 100%;
+  }
+}
+
+#project-portfolio {
+  width: 80%;
+  padding: 15px;
+  border-spacing:0 30px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.col-center {
+  text-align:center;
+  padding-right:15px;
+}
+
+
+#toplevel {
+  padding: 50px;
+  }
+
+
+
+.icon {
+  padding: 12px;
+}
+
+.sparta-maroon {
+	color: #fff!important;
+	background-color: #470101!important;
+}
+
+.sparta-maroon-hover {
+	color: #fff!important;
+	background-color: rgb(71, 1, 1)!important;
+}
+
+.box-header {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
