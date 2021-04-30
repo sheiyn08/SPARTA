@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sample DB Query</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="chart.css">
+		<script src="chart.bundle.js"></script>
+	</head>
+
+	<body>
+		<div class="w3-bar w3-indigo">
+			<div class="w3-bar-item w3-padding">Sample DB Query</div>
+			<div id="status" class="w3-right w3-bar-item"></div>
+		</div>
+		
+		<div class="w3-row">
+			<div class="w3-quarter w3-padding-small">
+				<select class="w3-select" onchange="callData(this.value);">
+					<option value="">Select Demographic:</option>
+					<option value="Identifier">Identifier</option>
+					<option value="Course">Course</option>
+					<option value="Tasks">Tasks</option>
+					<option value="Status">Status</option>
+				</select>
+			</div>
+		
+			<div class="w3-threequarter w3-padding-small">
+				<div id="chartContainer"><div class="w3-grey" style="height:50vh;">&nbsp;</div></div>
+				<table id="tableContainer" class="w3-table w3-hoverable w3-bordered w3-striped">
+				</table>
+			</div>
+		</div>
+		<script src="call_data.js"></script>
+		<script>
+			callCSV();
+		</script>
+	</body>
+</html>
